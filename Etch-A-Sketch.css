@@ -5,6 +5,15 @@ body {
  background-color: rgb(32, 226, 226);
 }
 
+#title {
+    text-align: center;
+    background-color: orange;
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 #grid {
     --grid-cols: 1;
     --grid-rows: 1;
@@ -27,22 +36,14 @@ body {
     padding-right: 5px;
     margin-top: 20px;
 }
-
 button {
     background-color: orange;
-    color: blue;
+    color: black;
     margin-right: 10px;
     font-size: 1.5em;
     box-shadow: 2px 2px 2px 1px;
     border-radius: 5px;
-    text-shadow: black 2px 2px 2px;
-    
-    
-
-}
-a {
-    text-decoration: none;
-    color: red;
+    text-shadow: black 1px 1px 1px;
 }
 
 

@@ -16,6 +16,7 @@ function createGrid(rows, cols) {
         }   
     }
 }
+// Javascript for the Etch-A-Sketch project @The_Odin_Project
 
 function resetGrid() {
     let cells = document.getElementsByClassName('grid-item');
